@@ -1,0 +1,26 @@
+{
+  "name": "laravelapp/helper",
+  "description": "Laravel helpers package.",
+  "license": "MIT",
+  "homepage": "https://laravelapp.com",
+  "authors": [
+    {
+      "name": "Mike Autumn",
+      "email": "laravelapp@gmail.com"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Illuminate\\Support\\": ""
+    },
+    "files": [
+      "App/App.php"
+    ]
+  },
+  "config": {
+    "sort-packages": false
+  },
+  "minimum-stability": "dev"
+}
